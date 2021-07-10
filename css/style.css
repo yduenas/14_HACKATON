@@ -1,0 +1,64 @@
+.header {
+	background-color: blue;
+	padding-left: 50px;
+	padding-top: 15px;
+	height: 75px;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.rigth {
+	text-align: right;
+	padding-right: 50px;
+}
+.product-block {
+	border: 1px solid black;
+	height: 600px;
+}
+.hover:hover {
+	color: blue;
+}
+
+.item {
+	padding: 5px;
+}
+
+.item:hover {
+	background-color: #e5e5e5;
+}
+
+.btn {
+	width: 100%;
+}
+.btn-green {
+	background-color: rgb(107, 196, 107);
+	color: white;
+}
+.btn-white {
+	background-color: white;
+	color: blue;
+	width: 50%;
+}
+.btn-red {
+	background-color: blue;
+	color: white;
+	font-weight: bold;
+}
+.btn-red:hover {
+	color: blue;
+	background-color: white;
+}
+.modal-footer {
+	display: block;
+	flex-wrap: wrap;
+	flex-shrink: 0;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 0.75rem;
+	border-top: 1px solid #dee2e6;
+	border-bottom-right-radius: calc(0.3rem - 1px);
+	border-bottom-left-radius: calc(0.3rem - 1px);
+}
+.colorWhite {
+	color: white;
+}
